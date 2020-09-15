@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+  }
+.bg{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    top:10px;
+}
+.flex-container > div {
+    border-radius: 25px;
+    background-color: sandybrown;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 10px;
+  }
+#question {
+    font-size: 30px;
+    font-weight: bolder;
+    position:absolute;
+    padding:10px;
+    text-align: center;
+    height: 20%;
+    width: 50%;
+    left:40%;  
+    color:black;
+    top:20%;
+    font-size: 40px;
+}
+#options{
+    font-size: 30px;
+    position: fixed;
+    padding:10px;
+    text-align: center;
+    border-radius: 50px;
+    height: 20%;
+    width: 60%;
+    left:40%;  
+    top:50%;
+    font-size: 40px;
+}
+button{
+    background-color: rgb(247, 243, 54);
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-weight: bolder;
+}
+span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#clock{
+    font-size: 40px;
+    right: 40%;
+    float: right;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 10px 40px;
+    
+}
+#Bank_amount{
+    background-color: rgb(138, 255, 71);
+    padding: 10px 40px;
+    border-radius: 30px;
+}

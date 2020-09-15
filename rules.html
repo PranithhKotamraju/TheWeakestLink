@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Who Is The Weaklink</title>
+    <link rel="stylesheet" href="rules.css">
+    <!-- //bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+</head>
+
+<body class="bg">
+    <audio id="pop">
+        <source src="music/piwav4.wav" type="audio/mpeg">
+    </audio>
+
+    <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+            <div class="tile">
+                <div class="tile is-parent is-vertical">
+                    <article class="tile is-child notification is-warning">
+                        <p class="title">ROUND RULES</p>
+                        <p class="subtitle">See below for detailed rules on each round:</p>
+
+                        <h>
+                            When the game is launched, the player should be greeted with a welcome window that would allow him or her to start the game or see the rules of the game by hitting the respective buttons or icons. The game must then proceed to capture the player’s name and age,then navigate the user to round 1 of the game.
+                        </h>
+
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification is-info">
+                                <p class="title">GENERAL GAME RULES</p>
+                                <p class="subtitle">The game features a single player who is required to answer general knowledge questions.</p>
+                                <figure class="image is-2by2">
+                                    <img src="special/wl.png">
+                                </figure>
+
+                                <h>
+                                    The game is broken up into three rounds, the first two rounds allow the player to bank and earn money whereas, the last round is a sudden death wrong that will determine if he or she will walk away with the total money banked in the two previous rounds; or loose the game and be labeled as the “WEAKEST LINK”. Note, the objective of round 1 and 2 is to create a chain of consecutive correct answers to earn an increasing amount of money from a “Money Tree” for a “bank pot” within a specific time limit. An incorrect answer breaks the chain and loses all the money accumulated up to that point; however, the player can say "bank", (press a bank button), prior to their question being asked, the accumulated money is stored, and the “Money Tree” resets to zero. For every question asked, the game must provide 4 possible answer choices to allow the player to choose the correct answer.
+
+                                </h>
+
+                            </article>
+                        </div>
+                </div>
+
+                <div class="tile is-parent">
+                    <article class="tile is-child notification is-success">
+                        <div class="content">
+                            <p class="title">Round 1 - Money Round</p>
+                            <p class="subtitle">With even more content</p>
+                            <div class="content">
+                                <!-- Content -->
+                                <h>
+                                    The player is required to answer a series of questions within two minutes, with the aim of banking at most $500,000 from the “MONEY TREE”. The money tree is layered as follows:
+
+                                    <table style="width: 1px;" border="5">
+                                        <tbody>
+                                            <tr>
+                                                <td>$500,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>$250,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td> $125,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>$75,000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>$50,000 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>$10,000 </td>
+                                            </tr>
+                                            <tr>
+                                                <td>$5000 </td>
+                                            </tr>
+                                            <tr>
+                                                <td> $1000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>$0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    If the player answers a question correctly, the money will move upwards the “Money Tree”, by one level. If the player answers the question wrong, the money is lost and the “Money Tree” starts from $0 again. Before a question is asked, the player is allowed to bank the money that corresponds to the level they are at on the “Money Tree”. However, the player should not be allowed to bank money if they are on level $0 on the money tree. If the player banks the money it stays safe, however the “Money Tree”, will start again, from $0. Note: the maximum you can bank for this round is $500,000 Once the timer runs out, the player will automatically go onto round 2 along with all money banked. Also, if the user banks $500,000 before the timer runs out they will automatically go onto round 2. If the person has $0 after round 1, they automatically lose the game. BANK -> $100,000
+
+                                </h>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tile is-parent">
+                <article class="tile is-child notification is-primary">
+                    <div class="content">
+                        <p class="title">Quote of the Day</p>
+                        <p class="subtitle">"This is not a game for slackers. There are no gimmies, no duos, no lifelines, no hints! You play as a team, but be ready to betray everyone to be rich! The weaker-willed, the unsteady, the ones who make excuses, all will leave with nothing! And if you fail, I will tell the whole world... You are the Weakest Link, goodbye!"</p>
+                        <div class="content">
+
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- <div class="tile is-parent"> -->
+        <article class="tile is-child notification is-danger">
+            <p class="title">Round 2 - Sudden Death Round</p>
+            <p class="subtitle"> If user has no money at end of Round 1, he/she does not get to play Round #2. </p>
+            <div class="content">
+                <!-- Content -->
+
+                <h2>
+
+            Once the player qualifies for Round 2 then they will be required to answer a series of questions within 1 minute, in this Sudden death round. Once the player correctly answer all questions asked within the specified time then they will win the game and walk away with all the money that was banked. However, any question answered incorrectly will automatically cause the player to lose the game and be deemed, “The Weakest Link”
+            If time runs out before the number of questions is complete, YOU ARE THE WEAKEST LINK, GOODBYE!
+
+                </h2>
+
+                <button id="start" class="button is-warning is-rounded">START GAME</button>
+
+            </div>
+        </article>
+        <!-- </div> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+
+</body>
+
+</html>

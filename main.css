@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+  }
+.bg{
+    background-image: url("special/welcome.gif");
+    /* height: 170%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    width :"100px";
+    text-align: center;
+
+    
+
+}
+
+
+/* h1{
+    color: rgb(138, 13, 13);
+   
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: oblique;
+    font-size:0.5em;
+ 
+    font-size: large;
+   
+} */
+
+#bank{
+    top:30px;
+    left: 20px;
+}
+
+#start{
+    position: fixed;
+    right: 90%;
+    top:50%;
+  }
+
+  #rules{
+    position: fixed;
+    left: 90%;
+    top:50%;
+  }
+
+p{
+    color: rgb(211, 66, 102);
+   
+    left: 22%;
+    top:7%;
+    font-size: 2.5em;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: oblique;
+ 
+}
+  
